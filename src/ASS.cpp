@@ -21,5 +21,3 @@ int main() {
 	hallo(welt);
 	return 42;
 }
-
-
