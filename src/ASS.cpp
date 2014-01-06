@@ -25,6 +25,8 @@ void rec()
 			hallo(welt);
 			rec();
 	}
+	else
+		return;
 }
 
 
