@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+//#include <array>
 using namespace std;
 
 int i=0;
@@ -28,12 +29,25 @@ void rec()
 	}
 	else
 	{
+		while(true)
+		{
 		cout << "Ende" << endl;
+		}
 	}
 }
 
+void arrayTest()
+{
+	int test [5];
+	for(int i=0; true; i++)
+	{
+		test[i]=i;
+		hallo(i+"");
+	}
+}
 
 int main() {
-	rec();
+	//rec();
+	arrayTest();
 	return 42;
 }
