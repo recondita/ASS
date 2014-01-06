@@ -38,11 +38,12 @@ void rec()
 
 void arrayTest()
 {
-	int test [5];
-	for(int i=0; true; i++)
+	//int test [5];
+	for(int i=0; i<20; i++)
 	{
-		test[i]=i;
-		hallo(i+"");
+		//test[i]=i;
+		std::string str = new string("test");
+		hallo(str);
 	}
 }
 
