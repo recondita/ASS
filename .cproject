@@ -111,27 +111,6 @@
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.2128923278;cdt.managedbuild.config.gnu.cross.exe.debug.2128923278.;cdt.managedbuild.tool.gnu.cross.c.compiler.1281510175;cdt.managedbuild.tool.gnu.c.compiler.input.1635463849">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.986394169;cdt.managedbuild.config.gnu.cross.exe.release.986394169.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1166552796;cdt.managedbuild.tool.gnu.cpp.compiler.input.310825827">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.2128923278;cdt.managedbuild.config.gnu.cross.exe.debug.2128923278.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.178629561;cdt.managedbuild.tool.gnu.cpp.compiler.input.704193955">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.986394169;cdt.managedbuild.config.gnu.cross.exe.release.986394169.;cdt.managedbuild.tool.gnu.cross.c.compiler.725391701;cdt.managedbuild.tool.gnu.c.compiler.input.1192270018">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.2128923278;cdt.managedbuild.config.gnu.cross.exe.debug.2128923278.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1000578380;cdt.managedbuild.tool.gnu.cpp.compiler.input.2089362000">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.2128923278;cdt.managedbuild.config.gnu.cross.exe.debug.2128923278.;cdt.managedbuild.tool.gnu.cross.c.compiler.400690778;cdt.managedbuild.tool.gnu.c.compiler.input.930773340">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
 		<buildTargets>
 			<target name="test" path="src" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
@@ -150,5 +129,20 @@
 				<runAllBuilders>true</runAllBuilders>
 			</target>
 		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.986394169;cdt.managedbuild.config.gnu.cross.exe.release.986394169.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1166552796;cdt.managedbuild.tool.gnu.cpp.compiler.input.310825827">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.2128923278;cdt.managedbuild.config.gnu.cross.exe.debug.2128923278.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.178629561;cdt.managedbuild.tool.gnu.cpp.compiler.input.704193955">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.986394169;cdt.managedbuild.config.gnu.cross.exe.release.986394169.;cdt.managedbuild.tool.gnu.cross.c.compiler.725391701;cdt.managedbuild.tool.gnu.c.compiler.input.1192270018">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.2128923278;cdt.managedbuild.config.gnu.cross.exe.debug.2128923278.;cdt.managedbuild.tool.gnu.cross.c.compiler.400690778;cdt.managedbuild.tool.gnu.c.compiler.input.930773340">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>

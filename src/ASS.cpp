@@ -7,9 +7,19 @@
 //============================================================================
 
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	return 0;
+
+void hallo(std::string s)
+{
+	cout << "Hallo "+s+"!" << endl;
 }
+
+int main() {
+	std::string welt="Welt";
+	hallo(welt);
+	return 42;
+}
+
+
