@@ -23,14 +23,13 @@ void rec()
 	{
 		std::string welt="Welt";
 			hallo(welt);
+			i++;
 			rec();
 	}
 	else
 	{
 		cout << "Ende" << endl;
-		return;
 	}
-	i=i+1;
 }
 
 
