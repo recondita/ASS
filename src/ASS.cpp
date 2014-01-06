@@ -26,7 +26,11 @@ void rec()
 			rec();
 	}
 	else
+	{
+		cout << "Ende" << endl;
 		return;
+	}
+	i=i+1;
 }
 
 
