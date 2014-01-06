@@ -10,14 +10,25 @@
 #include <string>
 using namespace std;
 
+int i=0;
 
 void hallo(std::string s)
 {
 	cout << "Hallo "+s+"!" << endl;
 }
 
+void rec()
+{
+	if(i<17)
+	{
+		std::string welt="Welt";
+			hallo(welt);
+			rec();
+	}
+}
+
+
 int main() {
-	std::string welt="Welt";
-	hallo(welt);
+	rec();
 	return 42;
 }
